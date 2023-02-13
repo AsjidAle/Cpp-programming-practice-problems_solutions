@@ -1,0 +1,25 @@
+#include<iostream>
+#include<string>
+//Identifier the number of Vowels and constonent letters in  your string
+using namespace std;
+int main(){
+    int y=0,z=0;
+    string a;
+    cout<<"Enter the string to test ";
+    getline(cin,a);
+    for(int i=0;i<a.length();i++){
+        int x;
+        x=int(a[i]);
+        if(x==65||x==69||x==73||x==79||x==85||x==97||x==101||x==105||x==111||x==117){
+            y++;
+        }
+        else{
+                if(x==32){
+                    z--;
+                }
+            z++;
+        }
+    }
+    cout<<"Number of vowels in your string is "<<y<<" while number of consonents in your string is "<<z;
+    return 0;
+}
