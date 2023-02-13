@@ -1,0 +1,17 @@
+
+#include <iostream>
+#include <tuple>
+#include <cstring>
+int main()
+{
+    std::tuple<int, char, std::string, int> tuple1;//for creating tuple
+    tuple1 = std::make_tuple(3, 'x', "Asjid", 2);//for inserting data in tuple
+    std::cout <<std:: get<0>(tuple1) << ' ' << std::get<1>(tuple1) << ' ' << std::get<2>(tuple1)<<' '<<std::get<3>(tuple1);//for getting data stored in tuple at any index
+    auto tuple2=std::tuple_cat(tuple1,tuple1);//for concating different tuples
+    std::cout<<std::tuple_size<decltype(tuple1)>::value;////for testing the tuples size
+    std::cout<<std::tuple_size<decltype(tuple2)>::value;
+    int xa;
+    std::tie(xa,std::ignore,std::ignore,std::ignore)=tuple1;//for unpacking the tuple with ignoring any member
+    std::cout<<xa;
+    return 0;
+}
