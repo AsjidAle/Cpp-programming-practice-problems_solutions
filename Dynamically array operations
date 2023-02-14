@@ -1,0 +1,19 @@
+#include<iostream>
+#define size 10
+void getter(int* arr){
+    for(int i=0;i<10;i++){
+        std::cout<<*(arr+i);
+    }
+}
+void setter(int*arr){
+    for(int i=0;i<10;i++){
+        std::cin>>arr[i];
+    }
+}
+int main(){
+    int *arr=new int(size);
+    setter(arr);
+    getter(arr);
+    delete arr;
+    return 0;
+}
