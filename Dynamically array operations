@@ -11,7 +11,7 @@ void setter(int*arr){
     }
 }
 int main(){
-    int *arr=new int(size);//array creating of size "size"
+    int *arr=new int[size];//array creating of size "size"
     setter(arr);
     getter(arr);
     delete arr;// deallocating or free the arr pointer
