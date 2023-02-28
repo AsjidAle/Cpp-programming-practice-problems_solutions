@@ -12,6 +12,7 @@ void setter(int*arr){
         std::cin>>arr[i];
     }
 }
+
 int main(){
     int *arr=new int[size];//array creating of size "size"
     setter(arr);
