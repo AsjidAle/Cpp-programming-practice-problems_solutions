@@ -2,7 +2,6 @@
 
 
 
-
 #define size 10
 
 void getter(int* arr){
