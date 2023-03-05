@@ -1,6 +1,7 @@
 
 #include<iostream>
 
+
 #define size 10
 
 void getter(int* arr){
