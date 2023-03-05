@@ -7,6 +7,7 @@ void getter(int* arr){
         std::cout<<*(arr+i);
     }
 }
+
 void setter(int*arr){
     for(int i=0;i<10;i++){
         std::cin>>arr[i];
