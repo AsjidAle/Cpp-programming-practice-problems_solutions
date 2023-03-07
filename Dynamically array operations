@@ -22,3 +22,8 @@ int main(){
     delete arr;// deallocating or free the arr pointer
     return 0;
 }
+
+
+
+
+
