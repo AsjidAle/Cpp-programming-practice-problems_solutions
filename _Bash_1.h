@@ -1,7 +1,6 @@
 // Utility file for hospital Management system
 
 
-
 #include <iostream>
 #include <cstring>
 using namespace std;
