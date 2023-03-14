@@ -3,7 +3,6 @@
 
 
 
-
 int main()
 {
     string userType;
