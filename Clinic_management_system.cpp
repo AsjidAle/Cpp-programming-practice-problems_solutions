@@ -64,7 +64,7 @@ int main()
         }
 
         // code to handle the user's chosen action
-        // ...
+        //about other actions
 
         // ask the user if they want to perform another action
         cout << "Would you like to perform another action? (y/n) ";
