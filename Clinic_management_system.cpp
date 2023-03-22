@@ -74,7 +74,7 @@ int main()
         cin.ignore();
 
         if (response[0] != 'y' && response[0] != 'Y')
--        {
+        {
             break;
         }
     }
