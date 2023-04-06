@@ -1,1 +1,19 @@
 
+#include<iostream>
+
+int main(){
+    int arr[10]={1,2,5,7,8,10,14,16,19,21};
+    std::cout<<"Eneter element to search ";
+    int n;
+    std::cin>>n;
+    int i=0;
+    while(i<10){
+        if(arr[i]==n){
+            break;
+        }
+        i++;
+    }
+    
+    (i>9)?std::cout<<"Element not exists":std::cout<<"Element is at "<<i<<" index";
+    return 0;
+}
