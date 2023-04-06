@@ -1,1 +1,18 @@
 
+#include<iostream>
+#include<chrono>
+
+
+using namespace std;
+using namespace chrono;
+int main(){
+    auto startime=chrono::high_resolution_clock::now();
+    for(unsigned int i=0;i<2110000000;i++){
+        //no thing to do just run loop
+    }
+    auto endtime=high_resolution_clock::now();
+    auto timeconsumed =duration_cast<std::chrono::milliseconds>(endtime-startime);
+    std::cout<<timeconsumed.count();
+    std::cout<<" millisecond is consumed to run this loop";
+    return 0;
+}
