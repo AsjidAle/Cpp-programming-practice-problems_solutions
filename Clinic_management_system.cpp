@@ -4,7 +4,6 @@
 
 #include "_Base_1.h"
 
-
 int main()
 {
     string userType;
