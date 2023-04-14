@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+
 int main()
 {
     std::cout << "Enter the string to check is it palindome or not! \n";
