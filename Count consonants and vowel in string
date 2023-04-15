@@ -2,7 +2,6 @@
 #include<string>
 
 //Identifier the number of Vowels and constonent letters in  your string
-
 using namespace std;
 
 int main(){
